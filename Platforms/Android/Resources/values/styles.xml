@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+  <!-- Bruges ved launch -->
+  <style name="MainTheme.Launcher" parent="Theme.Material3.DayNight.NoActionBar">
+    <item name="android:windowBackground">@drawable/splash_screen</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowFullscreen">true</item>
+  </style>
+
+  <!-- Bruges når appen er startet -->
+  <style name="MainTheme" parent="Theme.AppCompat.Light.NoActionBar" />
+
+</resources>
