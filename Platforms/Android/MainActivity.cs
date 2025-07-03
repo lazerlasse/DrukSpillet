@@ -6,7 +6,7 @@ namespace DrukSpillet
 {
     [Activity(
     Label = "Drukspillet",
-    Theme = "@style/MainTheme.Launcher",
+    Theme = "@style/Maui.SplashTheme",
     MainLauncher = true,
     LaunchMode = LaunchMode.SingleTop,
     ConfigurationChanges = ConfigChanges.ScreenSize
